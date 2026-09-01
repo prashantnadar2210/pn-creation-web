@@ -15,7 +15,7 @@ import {
 import { CTABand, FeatureCard, SectionHeading } from "@/components/site/ui";
 import { HeroSlider } from "@/components/site/HeroSlider";
 import { Reveal, RevealGroup, RevealItem } from "@/components/site/Reveal";
-
+import { Analytics } from "@vercel/analytics/next";
 
 export const Route = createFileRoute("/")({
   head: () => ({
