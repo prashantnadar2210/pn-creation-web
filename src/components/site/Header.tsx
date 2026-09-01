@@ -23,15 +23,16 @@ export function Header() {
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
           {nav.map((item) => (
             <Link
-              key={item.to}
-              to={item.to}
+              key={item?.to}
+              to={item?.to}
               activeOptions={{ exact: item.to === "/" }}
               className="relative rounded-md px-3 py-2 text-sm font-semibold text-muted-foreground transition-colors hover:text-gold"
-             activeProps={{
-  className:
-    "!text-gold bg-secondary/70 after:absolute after:inset-x-2 after:-bottom-0.5 after:h-0.5 after:rounded-full after:bg-primary",
-}}>
-              {item.label}
+              activeProps={{
+                className:
+                  "!text-gold bg-secondary/70 after:absolute after:inset-x-2 after:-bottom-0.5 after:h-0.5 after:rounded-full after:bg-primary",
+              }}
+            >
+              {item?.label}
             </Link>
           ))}
           <a
@@ -41,7 +42,6 @@ export function Header() {
             <Phone className="h-4 w-4" aria-hidden="true" /> Let&apos;s Talk
           </a>
         </nav>
-
 
         <button
           type="button"
@@ -58,15 +58,14 @@ export function Header() {
         <nav className="container-page grid gap-1 pb-4 lg:hidden" aria-label="Mobile navigation">
           {nav.map((item) => (
             <Link
-              key={item.to}
-              to={item.to}
-              activeOptions={{ exact: item.to === "/" }}
+              key={item?.to}
+              to={item?.to}
+              activeOptions={{ exact: item?.to === "/" }}
               onClick={() => setOpen(false)}
               className="rounded-lg border border-transparent px-3 py-3 text-base font-semibold text-muted-foreground hover:bg-secondary hover:text-gold"
               activeProps={{ className: "text-gold bg-secondary border-gold/40" }}
-
             >
-              {item.label}
+              {item?.label}
             </Link>
           ))}
         </nav>
