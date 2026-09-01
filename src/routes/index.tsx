@@ -15,7 +15,6 @@ import {
 import { CTABand, FeatureCard, SectionHeading } from "@/components/site/ui";
 import { HeroSlider } from "@/components/site/HeroSlider";
 import { Reveal, RevealGroup, RevealItem } from "@/components/site/Reveal";
-import { Analytics } from "@vercel/analytics/next";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -65,8 +64,8 @@ function Home() {
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               I&apos;m Prashant Nadar, founder of PN Creation. I build fast, secure and scalable
-              websites — plus the landing pages, creatives and profile setups that get you found
-              and chosen.
+              websites — plus the landing pages, creatives and profile setups that get you found and
+              chosen.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -178,7 +177,6 @@ function Home() {
           </Link>
         </div>
       </section>
-
 
       <CTABand
         title="Your business deserves to be found."
