@@ -58,7 +58,7 @@ export function Footer() {
             <li>
               <a
                 className="inline-flex items-center gap-2 hover:text-gold"
-                href="https://wa.me/91XXXXXXXXXX?text=Hi%20Prashant%2C%20I%20found%20PN%20Creation%20and%20I%27d%20like%20to%20discuss%20a%20website%20project."
+                href="https://wa.me/919653386506?text=Hi%20Prashant%2C%20I%20found%20PN%20Creation%20and%20I%27d%20like%20to%20discuss%20a%20website%20project."
                 target="_blank"
                 rel="noreferrer noopener"
               >
