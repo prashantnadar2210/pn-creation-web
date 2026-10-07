@@ -6,13 +6,13 @@ import { CTABand, SectionHeading } from "@/components/site/ui";
 export const Route = createFileRoute("/tools")({
   head: () => ({
     meta: [
-      { title: "Free Business Tools — QR Codes, Slugs & Content Counter | PN Creation" },
+      { title: "Free Business Tools — QR Codes, Slugs & Content Counter | PN Creation Web" },
       {
         name: "description",
         content:
-          "Free tools by PN Creation: generate a downloadable QR code for any link, build SEO-friendly URL slugs and count words, characters and reading time.",
+          "Free tools by PN Creation Web: generate a downloadable QR code for any link, build SEO-friendly URL slugs and count words, characters and reading time.",
       },
-      { property: "og:title", content: "Free Business Tools | PN Creation" },
+      { property: "og:title", content: "Free Business Tools | PN Creation Web" },
       {
         property: "og:description",
         content: "Generate QR codes, SEO slugs and content stats instantly — free, no signup.",

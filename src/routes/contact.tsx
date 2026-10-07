@@ -8,16 +8,16 @@ import { CONTACT_EMAIL, mailtoHref } from "@/lib/contact";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact PN Creation — Free Consultation" },
+      { title: "Contact PN Creation Web — Free Consultation" },
       {
         name: "description",
         content:
-          "Contact PN Creation for websites, landing pages and design work. Call +91 96533 86506, WhatsApp or email hello.pncreation@gmail.com for a free consultation.",
+          "Contact PN Creation Web for websites, landing pages and design work. Call +91 96533 86506, WhatsApp or email hello.pncreationweb@gmail.com for a free consultation.",
       },
-      { property: "og:title", content: "Contact PN Creation" },
+      { property: "og:title", content: "Contact PN Creation Web" },
       {
         property: "og:description",
-        content: "Call, WhatsApp or email PN Creation for a free project consultation.",
+        content: "Call, WhatsApp or email PN Creation Web for a free project consultation.",
       },
     ],
   }),
@@ -28,10 +28,11 @@ const services = [
   "Website Development",
   "Landing Page",
   "Portfolio Website",
+  "E-Commerce Website",
   "Website Maintenance",
-  "Google Business Profile",
-  "Resume / Invitation Design",
-  "Social Media / Video",
+  "Resume Creation / Update",
+  "E-Invites Images / Videos",
+  "Social Media / Videos",
   "Something else",
 ];
 
@@ -222,7 +223,7 @@ function Contact() {
     }
   };
 
-  const plainMessage = `Hello PN Creation,
+  const plainMessage = `Hello PN Creation Web,
 
 I would like to discuss a project with you.
 
@@ -287,9 +288,8 @@ Thank you,`;
                 autoComplete="name"
                 aria-invalid={Boolean(errors.name)}
                 aria-describedby={errors.name ? "name-error" : undefined}
-                className={`rounded-lg border bg-background px-4 py-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                  errors.name ? "border-red-500 focus-visible:ring-red-500" : "border-input"
-                }`}
+                className={`rounded-lg border bg-background px-4 py-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring ${errors.name ? "border-red-500 focus-visible:ring-red-500" : "border-input"
+                  }`}
               />
 
               {errors.name && (
@@ -315,9 +315,8 @@ Thank you,`;
                 autoComplete="email"
                 aria-invalid={Boolean(errors.email)}
                 aria-describedby={errors.email ? "email-error" : undefined}
-                className={`rounded-lg border bg-background px-4 py-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                  errors.email ? "border-red-500 focus-visible:ring-red-500" : "border-input"
-                }`}
+                className={`rounded-lg border bg-background px-4 py-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring ${errors.email ? "border-red-500 focus-visible:ring-red-500" : "border-input"
+                  }`}
               />
 
               {errors.email && (
@@ -340,9 +339,8 @@ Thank you,`;
                 onChange={(e) => handleServiceChange(e.target.value)}
                 aria-invalid={Boolean(errors.service)}
                 aria-describedby={errors.service ? "service-error" : undefined}
-                className={`rounded-lg border bg-background px-4 py-3 text-sm text-gray-300 outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                  errors.service ? "border-red-500 focus-visible:ring-red-500" : "border-input"
-                }`}
+                className={`rounded-lg border bg-background px-4 py-3 text-sm text-gray-300 outline-none focus-visible:ring-2 focus-visible:ring-ring ${errors.service ? "border-red-500 focus-visible:ring-red-500" : "border-input"
+                  }`}
               >
                 <option value="" className="text-white">
                   Select an option...
@@ -370,9 +368,8 @@ Thank you,`;
                 </label>
 
                 <span
-                  className={`text-xs ${
-                    details.length >= 500 ? "text-red-500" : "text-muted-foreground"
-                  }`}
+                  className={`text-xs ${details.length >= 500 ? "text-red-500" : "text-muted-foreground"
+                    }`}
                 >
                   {details.length}/500
                 </span>
@@ -389,9 +386,8 @@ Thank you,`;
                 placeholder="A short description of your business and what you want to achieve."
                 aria-invalid={Boolean(errors.details)}
                 aria-describedby={errors.details ? "details-error" : undefined}
-                className={`rounded-lg border bg-background px-4 py-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                  errors.details ? "border-red-500 focus-visible:ring-red-500" : "border-input"
-                }`}
+                className={`rounded-lg border bg-background px-4 py-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring ${errors.details ? "border-red-500 focus-visible:ring-red-500" : "border-input"
+                  }`}
               />
 
               {errors.details && (
@@ -487,9 +483,9 @@ Thank you,`;
               </a>
             </li>
 
- <li>
+            <li>
               <a
-                href="https://wa.me/919653386506?text=Hi%20Prashant%2C%20I%20found%20PN%20Creation%20and%20I%27d%20like%20to%20discuss%20a%20website%20project."
+                href="https://wa.me/919653386506?text=Hi%20PN%20Creation%20Web%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you."
                 target="_blank"
                 rel="noreferrer noopener"
                 className="flex items-center gap-3 hover:text-gold"
@@ -541,7 +537,7 @@ Thank you,`;
                 <span className="block text-xs tracking-widest text-muted-foreground uppercase">
                   Location
                 </span>
-                Goregaon East, Mumbai, Maharashtra 400065.
+                Mumbai, Maharashtra.
               </span>
             </li>
           </ul>

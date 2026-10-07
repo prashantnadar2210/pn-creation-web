@@ -1,9 +1,9 @@
-export const CONTACT_EMAIL = "hello.pncreation@gmail.com";
+export const CONTACT_EMAIL = "hello.pncreationweb@gmail.com";
 export const CONTACT_PHONE = "+919653386506";
 export const CONTACT_PHONE_DISPLAY = "+91 96533 86506";
 
-export const DEFAULT_SUBJECT = "Project Enquiry — PN Creation";
-export const DEFAULT_BODY = `Hello PN Creation,
+export const DEFAULT_SUBJECT = "Project Enquiry — PN Creation Web";
+export const DEFAULT_BODY = `Hello PN Creation Web,
 
 I would like to discuss a project with you.
 

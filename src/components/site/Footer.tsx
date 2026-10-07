@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Phone, Heart, MessageCircle } from "lucide-react";
+import { Mail, Phone, Heart, MessageCircle, Instagram } from "lucide-react";
 import { CONTACT_EMAIL, mailtoHref } from "@/lib/contact";
 import { Logo } from "./Logo";
 
@@ -37,7 +37,7 @@ export function Footer() {
         <div>
           <h3 className="text-sm tracking-[0.2em] text-gold uppercase">Get in touch</h3>
           <ul className="mt-4 grid gap-3 text-sm text-muted-foreground">
-            <li>
+            <li title="Call us">
               <a
                 className="inline-flex items-center gap-2 hover:text-gold"
                 href="tel:+919653386506"
@@ -45,7 +45,7 @@ export function Footer() {
                 <Phone className="h-4 w-4 text-gold" aria-hidden="true" /> +91 96533 86506
               </a>
             </li>
-            <li>
+            <li title="Email us">
               <a
                 className="inline-flex items-center gap-2 break-all hover:text-gold"
                 href={mailtoHref()}
@@ -55,15 +55,27 @@ export function Footer() {
               </a>
             </li>
 
-            <li>
+            <li title="Chat on WhatsApp">
               <a
                 className="inline-flex items-center gap-2 hover:text-gold"
-                href="https://wa.me/919653386506?text=Hi%20Prashant%2C%20I%20found%20PN%20Creation%20and%20I%27d%20like%20to%20discuss%20a%20website%20project."
+                href="https://wa.me/919653386506?text=Hi%20PN%20Creation%20Web%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you."
                 target="_blank"
                 rel="noreferrer noopener"
               >
                 <MessageCircle className="h-4 w-4 text-gold" aria-hidden="true" />
-                Chat on WhatsApp
+                +91 96533 86506
+              </a>
+            </li>
+
+            <li title="Follow on Instagram">
+              <a
+                className="inline-flex items-center gap-2 hover:text-gold"
+                href="https://www.instagram.com/pncreationweb/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Instagram className="h-4 w-4 text-gold" aria-hidden="true" />
+                pncreationweb
               </a>
             </li>
           </ul>
@@ -72,7 +84,7 @@ export function Footer() {
 
       <div className="border-t border-border/60 py-5">
         {/* <p className="container-page text-xs text-muted-foreground">
-          © {new Date().getFullYear()} PN Creation — Founded by{" "}
+          © {new Date().getFullYear()} PN Creation Web — Founded by{" "}
           <a
             className="inline-flex items-center gap-2 hover:underline underline-offset-3 text-gold"
             href="https://prashant-nadar.vercel.app/"
@@ -83,10 +95,11 @@ export function Footer() {
           </a>{" "}
         </p> */}
         <p className="container-page text-xs text-muted-foreground">
-          © {new Date().getFullYear()} PN Creation — Made with{" "}
-          <span className="mx-1 text-lg inline-block text-red-500 animate-pulse" aria-label="love">
+          © {new Date().getFullYear()} PN Creation Web — Made with{" "}
+          {/* <span className="mx-1 text-lg inline-block text-red-500 animate-pulse" aria-label="love">
             <Heart className="h-4 w-4 fill-red-500" aria-hidden="true" />
-          </span>{" "}
+          </span>{" "} */}
+          <span className="text-xl text-red-500">&nbsp;&hearts;&nbsp;</span>
           by{" "}
           <a
             className="font-medium text-gold transition-colors hover:text-gold/80 hover:underline underline-offset-4"

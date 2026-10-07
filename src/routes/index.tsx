@@ -19,17 +19,17 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/site/Reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PN Creation — Websites That Build Your Business" },
+      { title: "PN Creation Web — Websites That Build Your Business" },
       {
         name: "description",
         content:
-          "Modern, responsive and SEO-friendly websites, landing pages, portfolios and digital creatives by PN Creation. Design • Develop • Grow.",
+          "Modern, responsive and SEO-friendly websites, landing pages, portfolios and digital creatives by PN Creation Web. Design • Develop • Grow.",
       },
-      { property: "og:title", content: "PN Creation — Websites That Build Your Business" },
+      { property: "og:title", content: "PN Creation Web — Websites That Build Your Business" },
       {
         property: "og:description",
         content:
-          "Websites, landing pages, portfolios, maintenance and Google Business Profile setup by PN Creation.",
+          "Websites, landing pages, portfolios, maintenance and Google Business Profile setup by PN Creation Web.",
       },
     ],
   }),
@@ -63,7 +63,7 @@ function Home() {
               That Build <span className="text-gold-gradient">Your Business</span>
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              I&apos;m Prashant Nadar, founder of PN Creation. I build fast, secure and scalable
+              I&apos;m Prashant Nadar, founder of PN Creation Web. I build fast, secure and scalable
               websites — plus the landing pages, creatives and profile setups that get you found and
               chosen.
             </p>

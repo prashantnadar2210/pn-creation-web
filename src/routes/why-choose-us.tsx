@@ -16,13 +16,13 @@ import { Projects } from "@/components/site/projects";
 export const Route = createFileRoute("/why-choose-us")({
   head: () => ({
     meta: [
-      { title: "Why Choose PN Creation — Quality, Speed & Real Results" },
+      { title: "Why Choose PN Creation Web — Quality, Speed & Real Results" },
       {
         name: "description",
         content:
           "Direct communication with the founder, performance-first builds, mobile-perfect layouts, SEO-ready structure, honest pricing and reliable support after launch.",
       },
-      { property: "og:title", content: "Why Choose PN Creation" },
+      { property: "og:title", content: "Why Choose PN Creation Web" },
       {
         property: "og:description",
         content:

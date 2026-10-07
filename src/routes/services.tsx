@@ -13,17 +13,17 @@ import { CTABand, SectionHeading } from "@/components/site/ui";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Web Development, Design & Digital Growth | PN Creation" },
+      { title: "Services — Web Development, Design & Digital Growth | PN Creation Web" },
       {
         name: "description",
         content:
           "Websites, landing pages, portfolios, website maintenance, resume design, invitations, social media creatives, video editing and Google Business Profile setup.",
       },
-      { property: "og:title", content: "Services | PN Creation" },
+      { property: "og:title", content: "Services | PN Creation Web" },
       {
         property: "og:description",
         content:
-          "Full list of PN Creation services: web development, design, video editing, creatives and digital profile setup.",
+          "Full list of PN Creation Web services: web development, design, video editing, creatives and digital profile setup.",
       },
     ],
   }),

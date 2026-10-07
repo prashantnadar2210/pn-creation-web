@@ -5,17 +5,17 @@ import { CTABand, FeatureCard, SectionHeading } from "@/components/site/ui";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About PN Creation — Founder Prashant Nadar" },
+      { title: "About PN Creation Web — Founder Prashant Nadar" },
       {
         name: "description",
         content:
-          "PN Creation is a one-person digital studio led by Prashant Nadar, building websites, landing pages and brand creatives with a design-first, detail-obsessed approach.",
+          "PN Creation Web is a one-person digital studio led by Prashant Nadar, building websites, landing pages and brand creatives with a design-first, detail-obsessed approach.",
       },
-      { property: "og:title", content: "About PN Creation — Founder Prashant Nadar" },
+      { property: "og:title", content: "About PN Creation Web — Founder Prashant Nadar" },
       {
         property: "og:description",
         content:
-          "Meet Prashant Nadar, founder of PN Creation — websites, landing pages and creatives built with care.",
+          "Meet Prashant Nadar, founder of PN Creation Web — websites, landing pages and creatives built with care.",
       },
     ],
   }),
@@ -28,10 +28,10 @@ function About() {
       <section className="container-page pt-16 sm:pt-20">
         <SectionHeading
           align="left"
-          eyebrow="About PN Creation"
+          eyebrow="About PN Creation Web"
           title="A studio built on"
           highlight="craft and clarity"
-          description="PN Creation is led by me, Prashant Nadar. What started as a passion for clean design and clean code became a studio that helps businesses and professionals look credible online — and get real results from it."
+          description="PN Creation Web is led by me, Prashant Nadar. What started as a passion for clean design and clean code became a studio that helps businesses and professionals look credible online — and get real results from it."
         />
 
         <div className="mt-12 grid gap-6 lg:grid-cols-3">

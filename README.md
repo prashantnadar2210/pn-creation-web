@@ -1,6 +1,6 @@
-# PN Creation Suite
+# PN Creation Web Suite
 
-im founder and owner of PN Creation business. im providing facitlityes are in attached image. i want website for showing and using some tools on my website. also i attachd log in the end so you can use for favicon, header and in footer thorugbh proper professional public or asset folder though.
+im founder and owner of PN Creation Web business. im providing facitlityes are in attached image. i want website for showing and using some tools on my website. also i attachd log in the end so you can use for favicon, header and in footer thorugbh proper professional public or asset folder though.
 
 i want website in react with typescript and tailwind css. make route based home, about, contact, why choose us, services.
 

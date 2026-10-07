@@ -8,7 +8,7 @@ import hero4 from "@/assets/hero-4.jpg";
 import hero5 from "@/assets/hero-5.jpg";
 
 const slides = [
-  { src: hero1, alt: "Business website built by PN Creation shown on a laptop", label: "Business Websites" },
+  { src: hero1, alt: "Business website built by PN Creation Web shown on a laptop", label: "Business Websites" },
   { src: hero2, alt: "Responsive landing page design on phone and tablet", label: "Landing Pages" },
   { src: hero3, alt: "Dark premium portfolio website design on a laptop", label: "Portfolio Websites" },
   { src: hero4, alt: "Google Business Profile listing shown on a phone", label: "Google Business Profile" },
@@ -41,7 +41,7 @@ export function HeroSlider() {
       onMouseLeave={() => setPaused(false)}
       role="group"
       aria-roledescription="carousel"
-      aria-label="PN Creation work highlights"
+      aria-label="PN Creation Web work highlights"
     >
       <div className="relative aspect-[4/3] w-full">
         <AnimatePresence initial={false} mode="sync">
