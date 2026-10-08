@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { Logo } from "./Logo";
 
 const nav = [
@@ -8,6 +8,7 @@ const nav = [
   { to: "/about", label: "About" },
   { to: "/services", label: "Services" },
   { to: "/why-choose-us", label: "Why Choose Us" },
+  { to: "/projects", label: "Projects" },
   { to: "/tools", label: "Tools" },
   { to: "/contact", label: "Contact" },
 ] as const;

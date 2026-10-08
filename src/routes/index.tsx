@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { motion } from "framer-motion";
 import {
   ArrowRight,
   Code2,
@@ -28,8 +27,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "PN Creation Web — Websites That Build Your Business" },
       {
         property: "og:description",
-        content:
-          "Websites, landing pages, portfolios, maintenance by PN Creation Web.",
+        content: "Websites, landing pages, portfolios, maintenance by PN Creation Web.",
       },
     ],
   }),
@@ -48,12 +46,7 @@ function Home() {
     <>
       <section className="container-page pt-16 pb-8 sm:pt-24">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-center">
-          <motion.div
-            className="min-w-0"
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          >
+          <div className="min-w-0">
             <p className="inline-flex items-center gap-2 rounded-full border border-gold/40 px-3 py-1 text-[0.7rem] font-bold tracking-[0.2em] text-gold uppercase">
               <Sparkles className="h-3.5 w-3.5" aria-hidden="true" /> Design • Develop • Grow
             </p>
@@ -90,16 +83,9 @@ function Home() {
                 </div>
               ))}
             </dl>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className="min-w-0"
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.12, ease: [0.16, 1, 0.3, 1] }}
-          >
-            <HeroSlider />
-          </motion.div>
+          <HeroSlider />
         </div>
       </section>
 
@@ -148,8 +134,7 @@ function Home() {
           </RevealItem>
           <RevealItem className="h-full">
             <FeatureCard icon={<Layers className="h-5 w-5" />} title="Design & Creatives">
-              Invitations, social media posts, banners and video edits with a premium
-              finish.
+              Invitations, social media posts, banners and video edits with a premium finish.
             </FeatureCard>
           </RevealItem>
           <RevealItem className="h-full">
