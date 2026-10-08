@@ -339,161 +339,161 @@ export const PROJECTS: Project[] = [
   },
 
   //   WIP Projects
-  {
-    slug: "triaksh-tattoo",
-    title: "Triaksh Tattoo",
-    subtitle: "triakshtattoo2.vercel.app — Modern tattoo studio website for Andheri East, Mumbai",
-    overview:
-      "A modern, visual-first website for Triaksh Tattoo, a tattoo studio based in Andheri East, Mumbai. The experience is designed around the studio's philosophy that tattooing is an expression of identity, emotion and individuality, with a strong visual presentation, category-based gallery and direct enquiry channels.",
-    image: "/Triaksh-Tattoo-Hero.png",
-    alt: "Triaksh Tattoo website hero section showcasing the tattoo studio and its visual identity",
-    stack: [
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "React Router DOM",
-      "Responsive UI",
-    ],
-    features: [
-      "Automatic and manual hero slider for showcasing the studio and featured work",
-      "Category-based tattoo gallery for easier browsing of different styles and work",
-      "Contact form for direct client enquiries",
-      "Email redirection for direct client communication",
-      "One-tap WhatsApp redirection for quick consultation conversations",
-      "Desktop Lighthouse audit: 79 Performance, 96 Accessibility, 77 Best Practices and 100 SEO",
-      "Email redirection with pre-filled enquiry messages",
-      "Responsive experience designed for mobile, tablet and desktop visitors",
-      "Framer Motion interactions and transitions for a polished visual experience",
-    ],
-    live: "https://triakshtattoo2.vercel.app/",
-    status: "building",
-    featured: false,
-    // note: "Currently in development — preview available while the final website is being refined and prepared for launch.",
-    note: "Note:- A working demo is available while the project is being considered for final development and launch.",
-    caseStudy: {
-      summary:
-        "Creating a visually strong digital presence for a tattoo studio where the artwork, identity and enquiry experience take centre stage.",
-      role: "Frontend developer",
-      timeline: "Currently in development",
-      problem: [
-        "A tattoo studio needs more than a basic business website — the visual identity and quality of the work need to make an immediate impression.",
-        "Potential clients need an easy way to explore tattoo work by category before deciding to enquire.",
-        "The enquiry journey needs to be simple on mobile, where visitors can move directly from viewing work to starting a conversation.",
-      ],
-      approach: [
-        "Designed a visual-first hero experience with both automatic and manual controls so featured studio content remains engaging without taking control away from the visitor.",
-        "Organised the tattoo portfolio into categories so visitors can explore different styles and find relevant examples more quickly.",
-        "Built direct contact paths through a contact form, WhatsApp and email with pre-filled enquiry messaging.",
-        "Used React, TypeScript, Tailwind CSS and Framer Motion to create a responsive and polished experience across screen sizes.",
-      ],
-      results: [
-        {
-          label: "Project status",
-          value: "Building",
-          detail: "final website in progress",
-        },
-        {
-          label: "Gallery",
-          value: "Category-based",
-          detail: "organised tattoo showcase",
-        },
-        {
-          label: "Contact paths",
-          value: "3",
-          detail: "form, WhatsApp and email",
-        },
-        {
-          label: "Preview",
-          value: "Live",
-          detail: "Vercel preview available",
-        },
-      ],
-      outcome: [
-        "The studio has a working visual foundation that communicates its identity and showcases its tattoo work.",
-        "Visitors can move from discovering tattoo styles to contacting the studio through multiple direct enquiry paths.",
-        "The project is currently being refined before its final production launch.",
-      ],
-    },
-  },
-  {
-    slug: "pinpoint-tattooz",
-    title: "Pinpoint Tattooz",
-    subtitle:
-      "pinpoint-tattooz.vercel.app — Private tattoo studio website focused on custom artistry",
-    overview:
-      "A refined, visual-first website for Pinpoint Tattooz, a private tattoo studio built around custom-designed tattoo experiences. The site communicates the studio's philosophy, showcases its artists and work, and gives potential clients a simple path from discovering the studio to starting a conversation.",
-    image: "/Pinpoint-Tattooz-Hero.png",
-    alt: "Pinpoint Tattooz website hero section showcasing the private tattoo studio",
-    stack: [
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "React Router DOM",
-      "Responsive UI",
-    ],
-    features: [
-      "Automatic and manual hero slider for showcasing the studio and featured work",
-      "Visual tattoo gallery for presenting the studio's work and artistic style",
-      "Contact form for direct client enquiries",
-      "One-tap WhatsApp redirection for quick consultation conversations",
-      "Desktop Lighthouse audit: 85 Performance, 100 Accessibility, 77 Best Practices and 92 SEO",
-      "Responsive experience across mobile, tablet and desktop",
-      "Framer Motion animations and transitions for a polished browsing experience",
-    ],
-    live: "https://pinpoint-tattooz.vercel.app/",
-    status: "building",
-    // note: "Currently in development — preview available while the final website is being refined and prepared for launch.",
-    note: "Note:- A working demo is available while the project is being considered for final development and launch.",
-    caseStudy: {
-      summary:
-        "Creating a calm, premium digital presence for a private tattoo studio where custom artistry and personal attention are central to the experience.",
-      role: "Frontend developer",
-      timeline: "Currently in development",
-      problem: [
-        "Pinpoint Tattooz needed a digital presence that reflected its private-studio approach rather than feeling like a generic tattoo directory or template website.",
-        "Potential clients need to understand the studio's custom-design philosophy and artistic specialisations before deciding to enquire.",
-        "The journey from discovering the studio to contacting the artists needs to remain simple and frictionless, especially on mobile.",
-      ],
-      approach: [
-        "Built a visual-first hero experience with automatic and manual controls to create an engaging first impression while keeping navigation in the visitor's hands.",
-        "Presented the studio's tattoo work through a focused gallery so visitors can understand the quality and artistic direction before making contact.",
-        "Structured the experience around Pinpoint's custom-design philosophy, highlighting the conversation and concept process behind each tattoo.",
-        "Added direct enquiry paths through the contact form, WhatsApp and email so interested clients can quickly start a conversation.",
-        "Used React, TypeScript, Tailwind CSS and Framer Motion to create a polished and responsive experience across devices.",
-      ],
-      results: [
-        {
-          label: "Project status",
-          value: "Building",
-          detail: "final website in progress",
-        },
-        {
-          label: "Gallery",
-          value: "Visual",
-          detail: "focused tattoo showcase",
-        },
-        {
-          label: "Contact paths",
-          value: "3",
-          detail: "form, WhatsApp and email",
-        },
-        {
-          label: "Preview",
-          value: "Live",
-          detail: "Vercel demo available",
-        },
-      ],
-      outcome: [
-        "The studio has a working digital foundation that communicates its private, custom-design approach.",
-        "Visitors can explore the studio's work and move directly into an enquiry without unnecessary steps.",
-        "The project is currently being refined before the final production website is confirmed and launched.",
-      ],
-    },
-  },
+  // {
+  //   slug: "triaksh-tattoo",
+  //   title: "Triaksh Tattoo",
+  //   subtitle: "triakshtattoo2.vercel.app — Modern tattoo studio website for Andheri East, Mumbai",
+  //   overview:
+  //     "A modern, visual-first website for Triaksh Tattoo, a tattoo studio based in Andheri East, Mumbai. The experience is designed around the studio's philosophy that tattooing is an expression of identity, emotion and individuality, with a strong visual presentation, category-based gallery and direct enquiry channels.",
+  //   image: "/Triaksh-Tattoo-Hero.png",
+  //   alt: "Triaksh Tattoo website hero section showcasing the tattoo studio and its visual identity",
+  //   stack: [
+  //     "React",
+  //     "TypeScript",
+  //     "JavaScript",
+  //     "Tailwind CSS",
+  //     "Framer Motion",
+  //     "React Router DOM",
+  //     "Responsive UI",
+  //   ],
+  //   features: [
+  //     "Automatic and manual hero slider for showcasing the studio and featured work",
+  //     "Category-based tattoo gallery for easier browsing of different styles and work",
+  //     "Contact form for direct client enquiries",
+  //     "Email redirection for direct client communication",
+  //     "One-tap WhatsApp redirection for quick consultation conversations",
+  //     "Desktop Lighthouse audit: 79 Performance, 96 Accessibility, 77 Best Practices and 100 SEO",
+  //     "Email redirection with pre-filled enquiry messages",
+  //     "Responsive experience designed for mobile, tablet and desktop visitors",
+  //     "Framer Motion interactions and transitions for a polished visual experience",
+  //   ],
+  //   live: "https://triakshtattoo2.vercel.app/",
+  //   status: "building",
+  //   featured: false,
+  //   // note: "Currently in development — preview available while the final website is being refined and prepared for launch.",
+  //   note: "Note:- A working demo is available while the project is being considered for final development and launch.",
+  //   caseStudy: {
+  //     summary:
+  //       "Creating a visually strong digital presence for a tattoo studio where the artwork, identity and enquiry experience take centre stage.",
+  //     role: "Frontend developer",
+  //     timeline: "Currently in development",
+  //     problem: [
+  //       "A tattoo studio needs more than a basic business website — the visual identity and quality of the work need to make an immediate impression.",
+  //       "Potential clients need an easy way to explore tattoo work by category before deciding to enquire.",
+  //       "The enquiry journey needs to be simple on mobile, where visitors can move directly from viewing work to starting a conversation.",
+  //     ],
+  //     approach: [
+  //       "Designed a visual-first hero experience with both automatic and manual controls so featured studio content remains engaging without taking control away from the visitor.",
+  //       "Organised the tattoo portfolio into categories so visitors can explore different styles and find relevant examples more quickly.",
+  //       "Built direct contact paths through a contact form, WhatsApp and email with pre-filled enquiry messaging.",
+  //       "Used React, TypeScript, Tailwind CSS and Framer Motion to create a responsive and polished experience across screen sizes.",
+  //     ],
+  //     results: [
+  //       {
+  //         label: "Project status",
+  //         value: "Building",
+  //         detail: "final website in progress",
+  //       },
+  //       {
+  //         label: "Gallery",
+  //         value: "Category-based",
+  //         detail: "organised tattoo showcase",
+  //       },
+  //       {
+  //         label: "Contact paths",
+  //         value: "3",
+  //         detail: "form, WhatsApp and email",
+  //       },
+  //       {
+  //         label: "Preview",
+  //         value: "Live",
+  //         detail: "Vercel preview available",
+  //       },
+  //     ],
+  //     outcome: [
+  //       "The studio has a working visual foundation that communicates its identity and showcases its tattoo work.",
+  //       "Visitors can move from discovering tattoo styles to contacting the studio through multiple direct enquiry paths.",
+  //       "The project is currently being refined before its final production launch.",
+  //     ],
+  //   },
+  // },
+  // {
+  //   slug: "pinpoint-tattooz",
+  //   title: "Pinpoint Tattooz",
+  //   subtitle:
+  //     "pinpoint-tattooz.vercel.app — Private tattoo studio website focused on custom artistry",
+  //   overview:
+  //     "A refined, visual-first website for Pinpoint Tattooz, a private tattoo studio built around custom-designed tattoo experiences. The site communicates the studio's philosophy, showcases its artists and work, and gives potential clients a simple path from discovering the studio to starting a conversation.",
+  //   image: "/Pinpoint-Tattooz-Hero.png",
+  //   alt: "Pinpoint Tattooz website hero section showcasing the private tattoo studio",
+  //   stack: [
+  //     "React",
+  //     "TypeScript",
+  //     "JavaScript",
+  //     "Tailwind CSS",
+  //     "Framer Motion",
+  //     "React Router DOM",
+  //     "Responsive UI",
+  //   ],
+  //   features: [
+  //     "Automatic and manual hero slider for showcasing the studio and featured work",
+  //     "Visual tattoo gallery for presenting the studio's work and artistic style",
+  //     "Contact form for direct client enquiries",
+  //     "One-tap WhatsApp redirection for quick consultation conversations",
+  //     "Desktop Lighthouse audit: 85 Performance, 100 Accessibility, 77 Best Practices and 92 SEO",
+  //     "Responsive experience across mobile, tablet and desktop",
+  //     "Framer Motion animations and transitions for a polished browsing experience",
+  //   ],
+  //   live: "https://pinpoint-tattooz.vercel.app/",
+  //   status: "building",
+  //   // note: "Currently in development — preview available while the final website is being refined and prepared for launch.",
+  //   note: "Note:- A working demo is available while the project is being considered for final development and launch.",
+  //   caseStudy: {
+  //     summary:
+  //       "Creating a calm, premium digital presence for a private tattoo studio where custom artistry and personal attention are central to the experience.",
+  //     role: "Frontend developer",
+  //     timeline: "Currently in development",
+  //     problem: [
+  //       "Pinpoint Tattooz needed a digital presence that reflected its private-studio approach rather than feeling like a generic tattoo directory or template website.",
+  //       "Potential clients need to understand the studio's custom-design philosophy and artistic specialisations before deciding to enquire.",
+  //       "The journey from discovering the studio to contacting the artists needs to remain simple and frictionless, especially on mobile.",
+  //     ],
+  //     approach: [
+  //       "Built a visual-first hero experience with automatic and manual controls to create an engaging first impression while keeping navigation in the visitor's hands.",
+  //       "Presented the studio's tattoo work through a focused gallery so visitors can understand the quality and artistic direction before making contact.",
+  //       "Structured the experience around Pinpoint's custom-design philosophy, highlighting the conversation and concept process behind each tattoo.",
+  //       "Added direct enquiry paths through the contact form, WhatsApp and email so interested clients can quickly start a conversation.",
+  //       "Used React, TypeScript, Tailwind CSS and Framer Motion to create a polished and responsive experience across devices.",
+  //     ],
+  //     results: [
+  //       {
+  //         label: "Project status",
+  //         value: "Building",
+  //         detail: "final website in progress",
+  //       },
+  //       {
+  //         label: "Gallery",
+  //         value: "Visual",
+  //         detail: "focused tattoo showcase",
+  //       },
+  //       {
+  //         label: "Contact paths",
+  //         value: "3",
+  //         detail: "form, WhatsApp and email",
+  //       },
+  //       {
+  //         label: "Preview",
+  //         value: "Live",
+  //         detail: "Vercel demo available",
+  //       },
+  //     ],
+  //     outcome: [
+  //       "The studio has a working digital foundation that communicates its private, custom-design approach.",
+  //       "Visitors can explore the studio's work and move directly into an enquiry without unnecessary steps.",
+  //       "The project is currently being refined before the final production website is confirmed and launched.",
+  //     ],
+  //   },
+  // },
 ];
 
 export const getProject = (slug: string): Project | undefined => {

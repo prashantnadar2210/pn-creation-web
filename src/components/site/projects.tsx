@@ -3,6 +3,7 @@ import { ArrowUpRight, Github, Star } from "lucide-react";
 
 import { PROJECTS } from "@/data/projects";
 import { Reveal, RevealGroup, RevealItem } from "@/components/site/Reveal";
+import { Link } from "@tanstack/react-router";
 
 export function Projects() {
     return (
@@ -25,7 +26,7 @@ export function Projects() {
             </Reveal>
 
             <RevealGroup className="mt-12 grid gap-6 lg:grid-cols-2">
-                {PROJECTS.map((project) => (
+                {PROJECTS?.map((project) => (
                     <div
                         key={project.slug}
                         className={project.featured ? "lg:col-span-2" : ""}
@@ -212,6 +213,19 @@ export function Projects() {
                     </div>
                 ))}
             </RevealGroup>
+            <div className="mt-16 flex flex-col items-center justify-center gap-6">
+                <div className="text-center text-muted-foreground">
+                    New projects <span className="font-bold text-foreground animate-pulse">coming soon</span>. Ready to elevate your brand? Let’s connect and collaborate."
+                </div>
+                <div>
+                    <Link
+                        to="/contact"
+                        className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-sm font-bold text-primary-foreground transition-transform hover:scale-[1.03]"
+                    >
+                        Start a Project
+                    </Link>
+                </div>
+            </div>
         </section>
     );
 }
