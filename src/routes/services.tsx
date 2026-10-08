@@ -17,13 +17,13 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Websites, landing pages, portfolios, website maintenance, resume design, invitations, social media creatives, video editing and Google Business Profile setup.",
+          "Websites, landing pages, portfolios, website maintenance, invitations, social media creatives.",
       },
       { property: "og:title", content: "Services | PN Creation Web" },
       {
         property: "og:description",
         content:
-          "Full list of PN Creation Web services: web development, design, video editing, creatives and digital profile setup.",
+          "Full list of PN Creation Web services: web development, design, video editing, creatives, invitation design.",
       },
     ],
   }),
@@ -42,17 +42,6 @@ const groups: { icon: LucideIcon; title: string; items: string[] }[] = [
       "Event & celebration websites",
       "Website maintenance & bug fixing",
       "UI/UX improvements & responsive design",
-    ],
-  },
-  {
-    icon: FileText,
-    title: "Resume Design",
-    items: [
-      "Select from 120+ templates",
-      "ATS-friendly resume creation",
-      "Resume update & refresh",
-      "Cover letter writing",
-      "LinkedIn profile optimization",
     ],
   },
   {
@@ -81,7 +70,7 @@ const groups: { icon: LucideIcon; title: string; items: string[] }[] = [
     icon: Film,
     title: "Video Services",
     items: [
-      "Video editing (trim, cut, merge)",
+      "Customize video templates",
       "Add / remove sound",
       "Text, stickers & effects",
       "Reels, shorts & promo videos",
@@ -92,12 +81,12 @@ const groups: { icon: LucideIcon; title: string; items: string[] }[] = [
     icon: Settings,
     title: "Other Services",
     items: [
-      "Google Business Profile creation & update",
+      "Invitations & greeting cards",
       "Gift cards & coupon codes",
       "Custom digital banners",
       "Festival banners",
       "QR code generation",
-      "Digital profile setup",
+      "Birthdays QR code Surprise Website / Page",
     ],
   },
 ];

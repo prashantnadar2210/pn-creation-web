@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Websites, landing pages, portfolios, maintenance and Google Business Profile setup by PN Creation Web.",
+          "Websites, landing pages, portfolios, maintenance by PN Creation Web.",
       },
     ],
   }),
@@ -148,13 +148,8 @@ function Home() {
           </RevealItem>
           <RevealItem className="h-full">
             <FeatureCard icon={<Layers className="h-5 w-5" />} title="Design & Creatives">
-              Resumes, invitations, social media posts, banners and video edits with a premium
+              Invitations, social media posts, banners and video edits with a premium
               finish.
-            </FeatureCard>
-          </RevealItem>
-          <RevealItem className="h-full">
-            <FeatureCard icon={<MapPin className="h-5 w-5" />} title="Google Business Profile">
-              Profile creation and optimization so local customers find you on Search and Maps.
             </FeatureCard>
           </RevealItem>
           <RevealItem className="h-full">
